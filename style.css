@@ -1,0 +1,75 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: #1a1a2e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #eee;
+}
+
+.game-container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+  letter-spacing: 2px;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+}
+
+.scoreboard strong { color: #0f0; }
+
+#game {
+  border: 2px solid #16213e;
+  border-radius: 6px;
+  background: #0f3460;
+  display: block;
+  margin: 0 auto;
+}
+
+.controls {
+  margin-top: 12px;
+  font-size: .85rem;
+  color: #888;
+}
+
+kbd {
+  background: #16213e;
+  padding: 2px 7px;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.7);
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.overlay.active { display: flex; }
+
+.overlay-inner {
+  background: #16213e;
+  padding: 40px 50px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.overlay-inner h2 { color: #e94560; margin-bottom: 10px; }
+.overlay-inner p  { margin-bottom: 8px; }
+.hint { font-size: .85rem; color: #aaa; }

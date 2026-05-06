@@ -1,34 +1,31 @@
 # 🐍 Snake Game
 
-A classic Snake game playable in the browser, built with vanilla HTML, CSS, and JavaScript.
+A classic Snake game built with vanilla HTML, CSS & JavaScript. Play it right in your browser!
 
-## ▶️ Play Now
+## 🎮 Play Now
 
-👉 **[https://akasuv.github.io/snake-game-web/](https://akasuv.github.io/snake-game-web/)**
+**[🔗 Live Demo](https://8080-iad2gc0zvzs7swjvekgdo.e2b.app)**
 
-## 🎮 Controls
+## Controls
 
-| Input | Action |
-|-------|--------|
-| ↑ / W | Move Up |
-| ↓ / S | Move Down |
-| ← / A | Move Left |
-| → / D | Move Right |
+| Key           | Action       |
+|---------------|-------------|
+| ↑ ↓ ← →       | Move snake   |
+| W A S D       | Move snake   |
+| Space         | Restart game |
 
-- **Mobile**: Swipe on the canvas or use the on-screen D-pad.
+## Features
 
-## ✨ Features
+- Retro-style canvas rendering
+- Score tracking with local best-score persistence
+- Smooth gradient snake body
+- Game-over overlay
+- Keyboard controls (arrows + WASD)
 
-- Neon-themed visuals with glowing snake and food
-- Progressive difficulty (speed increases as you score)
-- Score tracking with game-over overlay
-- Responsive — works on desktop and mobile
-- Zero dependencies — single `index.html` file
+## Screenshot
 
-## 🚀 Hosting
+![Snake Game screenshot](https://img.shields.io/badge/play-in%20browser-brightgreen)
 
-This project is designed to be served via **GitHub Pages** from the root of the repository. No build step required.
+---
 
-## 📄 License
-
-MIT
+Built with ❤️ using plain HTML/CSS/JS — no dependencies, no build step.
